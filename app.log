@@ -255,3 +255,389 @@ Key questions to address:
 2025-08-09 21:48:39,259 - chains.base - INFO - Initialized DatabaseAnalysisWorkflow with model gpt-4o-mini
 2025-08-09 21:48:39,586 - chains.base - INFO - Initialized StatisticalAnalysisWorkflow with model gpt-4o-mini
 2025-08-09 21:48:39,587 - main - INFO - AdvancedWorkflowOrchestrator initialized successfully.
+2025-08-15 22:01:18,416 - chains.base - ERROR - Failed to initialize components: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:18,416 - main - ERROR - Could not import or initialize workflows: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:18,416 - chains.base - ERROR - Failed to initialize components: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:18,416 - main - ERROR - Could not create minimal orchestrator: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:25,463 - chains.base - ERROR - Failed to initialize components: Unsupported provider: openai. Choose 'openai' or 'gemini'.
+2025-08-15 22:01:25,463 - main - ERROR - Could not import or initialize workflows: Unsupported provider: openai. Choose 'openai' or 'gemini'.
+2025-08-15 22:01:25,463 - chains.base - ERROR - Failed to initialize components: Unsupported provider: openai. Choose 'openai' or 'gemini'.
+2025-08-15 22:01:25,463 - main - ERROR - Could not create minimal orchestrator: Unsupported provider: openai. Choose 'openai' or 'gemini'.
+2025-08-15 22:01:30,018 - chains.base - ERROR - Failed to initialize components: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:30,018 - main - ERROR - Could not import or initialize workflows: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:30,018 - chains.base - ERROR - Failed to initialize components: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:30,018 - main - ERROR - Could not create minimal orchestrator: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:34,574 - chains.base - ERROR - Failed to initialize components: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:34,574 - main - ERROR - Could not import or initialize workflows: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:34,575 - chains.base - ERROR - Failed to initialize components: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:34,575 - main - ERROR - Could not create minimal orchestrator: 1 validation error for ChatOpenAI
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'openai_api_key': None, ...ne, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-08-15 22:01:49,829 - chains.base - ERROR - Failed to initialize components: Unsupported provider: . Choose 'openai' or 'gemini'.
+2025-08-15 22:01:49,829 - main - ERROR - Could not import or initialize workflows: Unsupported provider: . Choose 'openai' or 'gemini'.
+2025-08-15 22:01:49,831 - chains.base - ERROR - Failed to initialize components: Unsupported provider: . Choose 'openai' or 'gemini'.
+2025-08-15 22:01:49,831 - main - ERROR - Could not create minimal orchestrator: Unsupported provider: . Choose 'openai' or 'gemini'.
+2025-08-15 22:02:07,777 - chains.base - ERROR - Failed to initialize components: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 22:02:07,778 - main - ERROR - Could not import or initialize workflows: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 22:02:19,785 - chains.base - ERROR - Failed to initialize components: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 22:02:19,786 - main - ERROR - Could not create minimal orchestrator: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 22:02:38,658 - chains.base - ERROR - Failed to initialize components: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 22:02:38,658 - main - ERROR - Could not import or initialize workflows: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 22:02:50,706 - chains.base - ERROR - Failed to initialize components: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 22:02:50,706 - main - ERROR - Could not create minimal orchestrator: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-08-15 23:27:30,859 - chains.base - ERROR - Failed to initialize components: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-15 23:27:30,859 - main - ERROR - Could not import or initialize workflows: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-15 23:27:30,865 - chains.base - ERROR - Failed to initialize components: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-15 23:27:30,865 - main - ERROR - Could not create minimal orchestrator: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-15 23:28:11,006 - main - INFO - Starting synchronous task 93bd41e2-df5f-4261-b16d-b7f5e0b2a8d9
+2025-08-15 23:28:11,006 - main - INFO - Processed questions.txt with 3259 characters
+2025-08-15 23:28:11,006 - main - INFO - Processed text file: dummy.txt
+2025-08-15 23:28:11,006 - main - INFO - Detecting workflow type for task: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded ...
+2025-08-15 23:28:11,008 - main - WARNING - LLM not available, using fallback workflow detection
+2025-08-15 23:28:11,008 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-15 23:28:11,009 - main - INFO - Task description: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded from [ecourts website](https://judgments.ecourts.gov.in/). It contains judgments of 25 high courts, ...
+2025-08-15 23:28:11,009 - main - INFO - Workflow input prepared with 7 keys
+2025-08-15 23:28:11,009 - main - INFO - Additional files: ['dummy.txt']
+2025-08-15 23:28:11,009 - main - INFO - Processing task 93bd41e2-df5f-4261-b16d-b7f5e0b2a8d9 synchronously with workflow: multi_step_web_scraping
+2025-08-15 23:28:11,009 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-15 23:28:11,010 - main - WARNING - No orchestrator available, cannot execute workflows
+2025-08-15 23:28:11,010 - main - INFO - Task 93bd41e2-df5f-4261-b16d-b7f5e0b2a8d9 completed successfully
+2025-08-15 23:28:11,010 - main - INFO - Result keys: ['workflow_type', 'status', 'message', 'task_analysis', 'recommendations', 'parameters_prepared', 'files_processed']
+2025-08-15 23:31:19,897 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:31:19,897 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:31:19,901 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:31:19,902 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:31:42,710 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:31:42,710 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:31:42,712 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:31:42,712 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:32:13,781 - main - INFO - Starting synchronous task 9d44532d-fe86-4495-a9f4-133c5fb27c7e
+2025-08-15 23:32:13,781 - main - INFO - Processed questions.txt with 3259 characters
+2025-08-15 23:32:13,781 - main - INFO - Processed text file: dummy.txt
+2025-08-15 23:32:13,781 - main - INFO - Detecting workflow type for task: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded ...
+2025-08-15 23:32:13,781 - main - WARNING - LLM not available, using fallback workflow detection
+2025-08-15 23:32:13,781 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-15 23:32:13,781 - main - INFO - Task description: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded from [ecourts website](https://judgments.ecourts.gov.in/). It contains judgments of 25 high courts, ...
+2025-08-15 23:32:13,781 - main - INFO - Workflow input prepared with 7 keys
+2025-08-15 23:32:13,785 - main - INFO - Additional files: ['dummy.txt']
+2025-08-15 23:32:13,785 - main - INFO - Processing task 9d44532d-fe86-4495-a9f4-133c5fb27c7e synchronously with workflow: multi_step_web_scraping
+2025-08-15 23:32:13,785 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-15 23:32:13,785 - main - WARNING - No orchestrator available, cannot execute workflows
+2025-08-15 23:32:13,785 - main - INFO - Task 9d44532d-fe86-4495-a9f4-133c5fb27c7e completed successfully
+2025-08-15 23:32:13,785 - main - INFO - Result keys: ['workflow_type', 'status', 'message', 'task_analysis', 'recommendations', 'parameters_prepared', 'files_processed']
+2025-08-15 23:33:51,013 - main - INFO - Starting synchronous task 0dcb57d8-1333-4264-8176-37d4c4a1ebad
+2025-08-15 23:33:51,013 - main - INFO - Processed questions.txt with 256 characters
+2025-08-15 23:33:51,013 - main - INFO - Processed text file: dummy.txt
+2025-08-15 23:33:51,013 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-15 23:33:51,013 - main - WARNING - LLM not available, using fallback workflow detection
+2025-08-15 23:33:51,013 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-15 23:33:51,013 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-15 23:33:51,013 - main - INFO - Workflow input prepared with 7 keys
+2025-08-15 23:33:51,017 - main - INFO - Additional files: ['dummy.txt']
+2025-08-15 23:33:51,017 - main - INFO - Processing task 0dcb57d8-1333-4264-8176-37d4c4a1ebad synchronously with workflow: multi_step_web_scraping
+2025-08-15 23:33:51,017 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-15 23:33:51,017 - main - WARNING - No orchestrator available, cannot execute workflows
+2025-08-15 23:33:51,017 - main - INFO - Task 0dcb57d8-1333-4264-8176-37d4c4a1ebad completed successfully
+2025-08-15 23:33:51,018 - main - INFO - Result keys: ['workflow_type', 'status', 'message', 'task_analysis', 'recommendations', 'parameters_prepared', 'files_processed']
+2025-08-15 23:35:15,278 - main - INFO - Starting synchronous task fa893242-aa0d-451e-8730-a62ed841c2aa
+2025-08-15 23:35:15,278 - main - INFO - Processed questions.txt with 256 characters
+2025-08-15 23:35:15,278 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-15 23:35:15,278 - main - WARNING - LLM not available, using fallback workflow detection
+2025-08-15 23:35:15,278 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-15 23:35:15,278 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-15 23:35:15,278 - main - INFO - Workflow input prepared with 7 keys
+2025-08-15 23:35:15,278 - main - INFO - Additional files: []
+2025-08-15 23:35:15,278 - main - INFO - Processing task fa893242-aa0d-451e-8730-a62ed841c2aa synchronously with workflow: multi_step_web_scraping
+2025-08-15 23:35:15,278 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-15 23:35:15,278 - main - WARNING - No orchestrator available, cannot execute workflows
+2025-08-15 23:35:15,278 - main - INFO - Task fa893242-aa0d-451e-8730-a62ed841c2aa completed successfully
+2025-08-15 23:35:15,278 - main - INFO - Result keys: ['workflow_type', 'status', 'message', 'task_analysis', 'recommendations', 'parameters_prepared', 'files_processed']
+2025-08-15 23:35:39,234 - main - INFO - Starting synchronous task c69ba1d3-ca3a-4dbc-86b7-7cc9ea9856f9
+2025-08-15 23:35:39,236 - main - INFO - Processed questions.txt with 256 characters
+2025-08-15 23:35:39,236 - main - INFO - Processed text file: dummy.txt
+2025-08-15 23:35:39,236 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-15 23:35:39,236 - main - WARNING - LLM not available, using fallback workflow detection
+2025-08-15 23:35:39,236 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-15 23:35:39,236 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-15 23:35:39,236 - main - INFO - Workflow input prepared with 7 keys
+2025-08-15 23:35:39,236 - main - INFO - Additional files: ['dummy.txt']
+2025-08-15 23:35:39,236 - main - INFO - Processing task c69ba1d3-ca3a-4dbc-86b7-7cc9ea9856f9 synchronously with workflow: multi_step_web_scraping
+2025-08-15 23:35:39,236 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-15 23:35:39,236 - main - WARNING - No orchestrator available, cannot execute workflows
+2025-08-15 23:35:39,239 - main - INFO - Task c69ba1d3-ca3a-4dbc-86b7-7cc9ea9856f9 completed successfully
+2025-08-15 23:35:39,239 - main - INFO - Result keys: ['workflow_type', 'status', 'message', 'task_analysis', 'recommendations', 'parameters_prepared', 'files_processed']
+2025-08-15 23:37:06,675 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:37:06,675 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:37:06,679 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:37:06,679 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:33,204 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:33,204 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:33,211 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:33,211 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:37,257 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:37,257 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:37,266 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:37,266 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:41,141 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:41,141 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:41,147 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:38:41,147 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:39:23,334 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:39:23,334 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:39:23,340 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:39:23,340 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:43:33,054 - main - INFO - Starting synchronous task 4b7d543a-003a-4ecb-9a27-c589ff62933f
+2025-08-15 23:43:33,054 - main - INFO - Processed questions.txt with 256 characters
+2025-08-15 23:43:33,054 - main - INFO - Processed text file: dummy.txt
+2025-08-15 23:43:33,054 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-15 23:43:33,054 - main - WARNING - LLM not available, using fallback workflow detection
+2025-08-15 23:43:33,054 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-15 23:43:33,054 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-15 23:43:33,054 - main - INFO - Workflow input prepared with 7 keys
+2025-08-15 23:43:33,054 - main - INFO - Additional files: ['dummy.txt']
+2025-08-15 23:43:33,054 - main - INFO - Processing task 4b7d543a-003a-4ecb-9a27-c589ff62933f synchronously with workflow: multi_step_web_scraping
+2025-08-15 23:43:33,057 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-15 23:43:33,057 - main - WARNING - No orchestrator available, cannot execute workflows
+2025-08-15 23:43:33,057 - main - INFO - Task 4b7d543a-003a-4ecb-9a27-c589ff62933f completed successfully
+2025-08-15 23:43:33,057 - main - INFO - Result keys: ['workflow_type', 'status', 'message', 'task_analysis', 'recommendations', 'parameters_prepared', 'files_processed']
+2025-08-15 23:48:51,372 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:48:51,372 - main - ERROR - Could not import or initialize workflows: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:48:51,376 - chains.base - ERROR - Failed to initialize components: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-15 23:48:51,376 - main - ERROR - Could not create minimal orchestrator: 'ChatGoogleGenerativeAI' object has no attribute 'model_name'
+2025-08-16 00:04:52,280 - main - INFO - Starting synchronous task dc8e26d7-0c17-4aa6-b0fd-708dff18f5ba
+2025-08-16 00:04:52,280 - main - INFO - Processed questions.txt with 256 characters
+2025-08-16 00:04:52,280 - main - INFO - Processed text file: dummy.txt
+2025-08-16 00:04:52,280 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-16 00:04:52,283 - main - WARNING - LLM not available, using fallback workflow detection
+2025-08-16 00:04:52,283 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-16 00:04:52,283 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-16 00:04:52,283 - main - INFO - Workflow input prepared with 7 keys
+2025-08-16 00:04:52,283 - main - INFO - Additional files: ['dummy.txt']
+2025-08-16 00:04:52,283 - main - INFO - Processing task dc8e26d7-0c17-4aa6-b0fd-708dff18f5ba synchronously with workflow: multi_step_web_scraping
+2025-08-16 00:04:52,284 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-16 00:04:52,284 - main - WARNING - No orchestrator available, cannot execute workflows
+2025-08-16 00:04:52,284 - main - INFO - Task dc8e26d7-0c17-4aa6-b0fd-708dff18f5ba completed successfully
+2025-08-16 00:04:52,284 - main - INFO - Result keys: ['workflow_type', 'status', 'message', 'task_analysis', 'recommendations', 'parameters_prepared', 'files_processed']
+2025-08-16 00:05:17,639 - chains.base - INFO - Initialized DataAnalysisChain
+2025-08-16 00:05:17,647 - chains.base - INFO - Initialized CodeGenerationChain
+2025-08-16 00:05:17,652 - chains.base - INFO - Initialized ReportGenerationChain
+2025-08-16 00:05:17,657 - chains.workflows - INFO - LLM initialized successfully using Gemini.
+2025-08-16 00:05:17,659 - chains.base - INFO - Initialized DataAnalysisWorkflow
+2025-08-16 00:05:17,661 - chains.base - INFO - Initialized ImageAnalysisWorkflow
+2025-08-16 00:05:17,663 - chains.base - INFO - Initialized DataAnalysisWorkflow
+2025-08-16 00:05:17,663 - chains.base - INFO - Initialized CodeGenerationWorkflow
+2025-08-16 00:05:17,669 - chains.base - INFO - Initialized ExploratoryDataAnalysisWorkflow
+2025-08-16 00:05:17,673 - chains.base - INFO - Initialized PredictiveModelingWorkflow
+2025-08-16 00:05:17,676 - chains.base - INFO - Initialized DataVisualizationWorkflow
+2025-08-16 00:05:17,678 - chains.base - INFO - Initialized WebScrapingWorkflow
+2025-08-16 00:05:17,754 - chains.base - INFO - Initialized DatabaseAnalysisWorkflow
+2025-08-16 00:05:17,759 - chains.base - INFO - Initialized StatisticalAnalysisWorkflow
+2025-08-16 00:05:17,759 - main - INFO - AdvancedWorkflowOrchestrator initialized successfully.
+2025-08-16 00:10:54,907 - main - INFO - Starting synchronous task d5257d26-be60-4ae2-9cea-a423fe99b40d
+2025-08-16 00:10:54,907 - main - INFO - Processed questions.txt with 256 characters
+2025-08-16 00:10:54,907 - main - INFO - Processed text file: dummy.txt
+2025-08-16 00:10:54,907 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-16 00:10:55,528 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:10:57,896 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:11:02,253 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:11:10,640 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:11:26,977 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 32.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:11:59,383 - main - ERROR - Error in LLM workflow detection: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-16 00:11:59,384 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-16 00:11:59,384 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-16 00:11:59,384 - main - INFO - Workflow input prepared with 7 keys
+2025-08-16 00:11:59,384 - main - INFO - Additional files: ['dummy.txt']
+2025-08-16 00:11:59,384 - main - INFO - Processing task d5257d26-be60-4ae2-9cea-a423fe99b40d synchronously with workflow: multi_step_web_scraping
+2025-08-16 00:11:59,384 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-16 00:11:59,384 - main - INFO - Executing workflow multi_step_web_scraping with orchestrator
+2025-08-16 00:11:59,384 - main - INFO - Available workflows: ['data_analysis', 'code_generation', 'report_generation', 'image_analysis', 'text_analysis', 'exploratory_data_analysis', 'predictive_modeling', 'data_visualization', 'web_scraping', 'multi_step_web_scraping', 'database_analysis', 'statistical_analysis']
+2025-08-16 00:11:59,384 - chains.workflows - INFO - Executing ModularWebScrapingWorkflow with enhanced format detection
+2025-08-16 00:12:01,917 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:12:04,303 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:12:08,693 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:12:17,046 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:12:33,383 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 32.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:13:09,764 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:13:12,161 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:13:16,561 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:13:24,938 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:13:41,307 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 32.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-16 00:14:13,694 - chains.workflows - ERROR - Error in step execution: Failed to extract data using LLM-guided strategy: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-16 00:14:13,694 - main - INFO - Workflow multi_step_web_scraping executed successfully for task d5257d26-be60-4ae2-9cea-a423fe99b40d
+2025-08-16 00:14:13,694 - main - INFO - Result type: <class 'dict'>
+2025-08-16 00:14:13,694 - main - INFO - Result keys: ['error', 'workflow_type', 'status', 'timestamp', 'execution_log', 'target_url']
+2025-08-16 00:14:13,695 - main - INFO - Task d5257d26-be60-4ae2-9cea-a423fe99b40d completed successfully
+2025-08-16 00:14:13,695 - main - INFO - Result keys: ['error', 'workflow_type', 'status', 'timestamp', 'execution_log', 'target_url']
+2025-08-16 00:16:04,212 - chains.base - INFO - Initialized DataAnalysisChain
+2025-08-16 00:16:04,223 - chains.base - INFO - Initialized CodeGenerationChain
+2025-08-16 00:16:04,228 - chains.base - INFO - Initialized ReportGenerationChain
+2025-08-16 00:16:04,231 - chains.workflows - INFO - LLM initialized successfully using Gemini.
+2025-08-16 00:16:04,234 - chains.base - INFO - Initialized DataAnalysisWorkflow
+2025-08-16 00:16:04,237 - chains.base - INFO - Initialized ImageAnalysisWorkflow
+2025-08-16 00:16:04,239 - chains.base - INFO - Initialized DataAnalysisWorkflow
+2025-08-16 00:16:04,241 - chains.base - INFO - Initialized CodeGenerationWorkflow
+2025-08-16 00:16:04,244 - chains.base - INFO - Initialized ExploratoryDataAnalysisWorkflow
+2025-08-16 00:16:04,247 - chains.base - INFO - Initialized PredictiveModelingWorkflow
+2025-08-16 00:16:04,251 - chains.base - INFO - Initialized DataVisualizationWorkflow
+2025-08-16 00:16:04,254 - chains.base - INFO - Initialized WebScrapingWorkflow
+2025-08-16 00:16:04,333 - chains.base - INFO - Initialized DatabaseAnalysisWorkflow
+2025-08-16 00:16:04,333 - chains.base - INFO - Initialized StatisticalAnalysisWorkflow
+2025-08-16 00:16:04,333 - main - INFO - AdvancedWorkflowOrchestrator initialized successfully.
+2025-08-16 00:17:37,854 - main - INFO - Starting synchronous task c8f4ab50-eb5f-453b-a4e7-76f7419233a2
+2025-08-16 00:17:37,854 - main - INFO - Processed questions.txt with 256 characters
+2025-08-16 00:17:37,854 - main - INFO - Processed text file: dummy.txt
+2025-08-16 00:17:37,854 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-16 00:17:38,763 - main - INFO - LLM detected workflow type: multi_step_web_scraping
+2025-08-16 00:17:38,763 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-16 00:17:38,765 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-16 00:17:38,765 - main - INFO - Workflow input prepared with 7 keys
+2025-08-16 00:17:38,765 - main - INFO - Additional files: ['dummy.txt']
+2025-08-16 00:17:38,765 - main - INFO - Processing task c8f4ab50-eb5f-453b-a4e7-76f7419233a2 synchronously with workflow: multi_step_web_scraping
+2025-08-16 00:17:38,765 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-16 00:17:38,765 - main - INFO - Executing workflow multi_step_web_scraping with orchestrator
+2025-08-16 00:17:38,765 - main - INFO - Available workflows: ['data_analysis', 'code_generation', 'report_generation', 'image_analysis', 'text_analysis', 'exploratory_data_analysis', 'predictive_modeling', 'data_visualization', 'web_scraping', 'multi_step_web_scraping', 'database_analysis', 'statistical_analysis']
+2025-08-16 00:17:38,765 - chains.workflows - INFO - Executing ModularWebScrapingWorkflow with enhanced format detection
+2025-08-16 00:18:05,351 - main - INFO - Workflow multi_step_web_scraping executed successfully for task c8f4ab50-eb5f-453b-a4e7-76f7419233a2
+2025-08-16 00:18:05,353 - main - INFO - Result type: <class 'dict'>
+2025-08-16 00:18:05,353 - main - INFO - Result keys: ['workflow_type', 'status', 'timestamp', 'target_url', 'execution_log', 'results', 'plot_path', 'plot_base64', 'chart_type', 'image_size_bytes', 'message', 'fallback_mode']
+2025-08-16 00:18:05,354 - main - INFO - Task c8f4ab50-eb5f-453b-a4e7-76f7419233a2 completed successfully
+2025-08-16 00:18:05,354 - main - INFO - Result keys: ['workflow_type', 'status', 'timestamp', 'target_url', 'execution_log', 'results', 'plot_path', 'plot_base64', 'chart_type', 'image_size_bytes', 'message', 'fallback_mode']
+2025-08-16 00:18:54,624 - main - INFO - Starting synchronous task e60740d2-605a-4995-92f5-5ed4217275d1
+2025-08-16 00:18:54,624 - main - INFO - Processed questions.txt with 256 characters
+2025-08-16 00:18:54,624 - main - INFO - Detecting workflow type for task: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create...
+2025-08-16 00:18:55,321 - main - INFO - LLM detected workflow type: multi_step_web_scraping
+2025-08-16 00:18:55,321 - main - INFO - Detected workflow: multi_step_web_scraping
+2025-08-16 00:18:55,321 - main - INFO - Task description: Scrape movie data from:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Then create a visualization and answer:
+1. What movie first grossed over $2 billion worldwide?
+2. What was th...
+2025-08-16 00:18:55,321 - main - INFO - Workflow input prepared with 7 keys
+2025-08-16 00:18:55,323 - main - INFO - Additional files: []
+2025-08-16 00:18:55,323 - main - INFO - Processing task e60740d2-605a-4995-92f5-5ed4217275d1 synchronously with workflow: multi_step_web_scraping
+2025-08-16 00:18:55,323 - main - INFO - Starting workflow execution for multi_step_web_scraping
+2025-08-16 00:18:55,323 - main - INFO - Executing workflow multi_step_web_scraping with orchestrator
+2025-08-16 00:18:55,323 - main - INFO - Available workflows: ['data_analysis', 'code_generation', 'report_generation', 'image_analysis', 'text_analysis', 'exploratory_data_analysis', 'predictive_modeling', 'data_visualization', 'web_scraping', 'multi_step_web_scraping', 'database_analysis', 'statistical_analysis']
+2025-08-16 00:18:55,324 - chains.workflows - INFO - Executing ModularWebScrapingWorkflow with enhanced format detection
+2025-08-16 00:19:21,538 - main - INFO - Workflow multi_step_web_scraping executed successfully for task e60740d2-605a-4995-92f5-5ed4217275d1
+2025-08-16 00:19:21,538 - main - INFO - Result type: <class 'dict'>
+2025-08-16 00:19:21,538 - main - INFO - Result keys: ['workflow_type', 'status', 'timestamp', 'target_url', 'execution_log', 'results', 'plot_path', 'plot_base64', 'chart_type', 'image_size_bytes', 'message', 'fallback_mode']
+2025-08-16 00:19:21,538 - main - INFO - Task e60740d2-605a-4995-92f5-5ed4217275d1 completed successfully
+2025-08-16 00:19:21,538 - main - INFO - Result keys: ['workflow_type', 'status', 'timestamp', 'target_url', 'execution_log', 'results', 'plot_path', 'plot_base64', 'chart_type', 'image_size_bytes', 'message', 'fallback_mode']
+2025-08-16 00:34:02,644 - main - INFO - Starting synchronous task 2c3bccb7-b42e-4de9-ac04-679281cb0c19
+2025-08-16 00:34:02,645 - main - INFO - Processed questions.txt with 3259 characters
+2025-08-16 00:34:02,645 - main - INFO - Detecting workflow type for task: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded ...
+2025-08-16 00:34:03,757 - main - INFO - LLM detected workflow type: database_analysis
+2025-08-16 00:34:03,761 - main - INFO - Detected workflow: database_analysis
+2025-08-16 00:34:03,761 - main - INFO - Task description: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded from [ecourts website](https://judgments.ecourts.gov.in/). It contains judgments of 25 high courts, ...
+2025-08-16 00:34:03,761 - main - INFO - Workflow input prepared with 7 keys
+2025-08-16 00:34:03,761 - main - INFO - Additional files: []
+2025-08-16 00:34:03,761 - main - INFO - Processing task 2c3bccb7-b42e-4de9-ac04-679281cb0c19 synchronously with workflow: database_analysis
+2025-08-16 00:34:03,761 - main - INFO - Starting workflow execution for database_analysis
+2025-08-16 00:34:03,761 - main - INFO - Executing workflow database_analysis with orchestrator
+2025-08-16 00:34:03,761 - main - INFO - Available workflows: ['data_analysis', 'code_generation', 'report_generation', 'image_analysis', 'text_analysis', 'exploratory_data_analysis', 'predictive_modeling', 'data_visualization', 'web_scraping', 'multi_step_web_scraping', 'database_analysis', 'statistical_analysis']
+2025-08-16 00:34:18,564 - main - INFO - Workflow database_analysis executed successfully for task 2c3bccb7-b42e-4de9-ac04-679281cb0c19
+2025-08-16 00:34:18,564 - main - INFO - Result type: <class 'dict'>
+2025-08-16 00:34:18,564 - main - INFO - Result keys: ['analysis_plan', 'workflow_type', 'status', 'timestamp', 'database_type']
+2025-08-16 00:34:18,564 - main - INFO - Task 2c3bccb7-b42e-4de9-ac04-679281cb0c19 completed successfully
+2025-08-16 00:34:18,564 - main - INFO - Result keys: ['analysis_plan', 'workflow_type', 'status', 'timestamp', 'database_type']
+2025-08-16 00:42:35,100 - main - INFO - Starting synchronous task 25a5d88f-8893-4afd-82eb-0638fa19e0df
+2025-08-16 00:42:35,100 - main - INFO - Processed questions.txt with 3259 characters
+2025-08-16 00:42:35,100 - main - INFO - Processed text file: dummy.txt
+2025-08-16 00:42:35,100 - main - INFO - Detecting workflow type for task: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded ...
+2025-08-16 00:42:35,987 - main - INFO - LLM detected workflow type: database_analysis
+2025-08-16 00:42:35,987 - main - INFO - Detected workflow: database_analysis
+2025-08-16 00:42:35,987 - main - INFO - Task description: The Indian high court judgement dataset contains judgements from the Indian High Courts, downloaded from [ecourts website](https://judgments.ecourts.gov.in/). It contains judgments of 25 high courts, ...
+2025-08-16 00:42:35,987 - main - INFO - Workflow input prepared with 7 keys
+2025-08-16 00:42:35,987 - main - INFO - Additional files: ['dummy.txt']
+2025-08-16 00:42:35,987 - main - INFO - Processing task 25a5d88f-8893-4afd-82eb-0638fa19e0df synchronously with workflow: database_analysis
+2025-08-16 00:42:35,994 - main - INFO - Starting workflow execution for database_analysis
+2025-08-16 00:42:35,994 - main - INFO - Executing workflow database_analysis with orchestrator
+2025-08-16 00:42:35,994 - main - INFO - Available workflows: ['data_analysis', 'code_generation', 'report_generation', 'image_analysis', 'text_analysis', 'exploratory_data_analysis', 'predictive_modeling', 'data_visualization', 'web_scraping', 'multi_step_web_scraping', 'database_analysis', 'statistical_analysis']
+2025-08-16 00:42:48,184 - main - INFO - Workflow database_analysis executed successfully for task 25a5d88f-8893-4afd-82eb-0638fa19e0df
+2025-08-16 00:42:48,184 - main - INFO - Result type: <class 'dict'>
+2025-08-16 00:42:48,185 - main - INFO - Result keys: ['analysis_plan', 'workflow_type', 'status', 'timestamp', 'database_type']
+2025-08-16 00:42:48,185 - main - INFO - Task 25a5d88f-8893-4afd-82eb-0638fa19e0df completed successfully
+2025-08-16 00:42:48,185 - main - INFO - Result keys: ['analysis_plan', 'workflow_type', 'status', 'timestamp', 'database_type']

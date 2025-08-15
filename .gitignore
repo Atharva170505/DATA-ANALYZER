@@ -1,0 +1,10 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables file
+.env
+
+# Other common ignores
+__pycache__/
+*.pyc

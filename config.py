@@ -17,7 +17,7 @@ LANGCHAIN_API_KEY = os.getenv("LANGCHAIN_API_KEY")
 # Model Configuration
 #DEFAULT_OPENAI_MODEL = "gpt-4"
 DEFAULT_OPENAI_MODEL="gpt-4o-mini"  # Upgraded to GPT-4 for better accuracy
-DEFAULT_GEMINI_MODEL = "gemini-pro"
+DEFAULT_GEMINI_MODEL = "gemini-1.5-flash-latest"
 TEMPERATURE = 0.3  # Lower temperature for more accurate analysis
 MAX_TOKENS = 4000
 
@@ -30,7 +30,7 @@ CHAIN_TIMEOUT = 120  # seconds
 MAX_RETRIES = 3
 
 
-def get_chat_model(provider="openai"):
+def get_chat_model(provider="gemini"):
     """
     Get a chat model instance with configuration based on the provider.
     :param provider: 'openai' or 'gemini'

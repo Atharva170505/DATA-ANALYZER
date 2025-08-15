@@ -906,13 +906,13 @@ class AdvancedWorkflowOrchestrator(WorkflowOrchestrator):
         try:
             from config import get_chat_model, OPENAI_API_KEY, GEMINI_API_KEY
 
-            # Prefer OpenAI if available, otherwise fallback to Gemini
-            if OPENAI_API_KEY:
-                self.llm = get_chat_model(provider="openai")
-                logger.info("LLM initialized successfully using OpenAI.")
-            elif GEMINI_API_KEY:
+            # Prefer Gemini if available, otherwise fallback to OpenAI
+            if GEMINI_API_KEY:
                 self.llm = get_chat_model(provider="gemini")
-                logger.info("LLM initialized successfully using Gemini as a fallback.")
+                logger.info("LLM initialized successfully using Gemini.")
+            elif OPENAI_API_KEY:
+                self.llm = get_chat_model(provider="openai")
+                logger.info("LLM initialized successfully using OpenAI as a fallback.")
             else:
                 # If no key is available, we cannot proceed with this orchestrator
                 raise ValueError("No OpenAI or Gemini API key found. Cannot initialize LLM for AdvancedWorkflowOrchestrator.")

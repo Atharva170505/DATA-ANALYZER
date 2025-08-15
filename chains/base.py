@@ -12,10 +12,10 @@ from langchain.callbacks.manager import CallbackManagerForChainRun
 
 
 # Configuration constants
-from config import get_chat_model, EMBEDDING_MODEL, OPENAI_API_KEY
+from config import get_chat_model, GEMINI_API_KEY
 
 # LangChain components
-from langchain_openai import OpenAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.prompts import ChatPromptTemplate, PromptTemplate
 from langchain.chains import LLMChain
@@ -36,14 +36,14 @@ class BaseWorkflow(ABC):
             # Use the provided LLM or get the default one
             self.llm = llm or get_chat_model()
 
-            object.__setattr__(self, "embeddings", OpenAIEmbeddings(model=EMBEDDING_MODEL, api_key=OPENAI_API_KEY))
+            object.__setattr__(self, "embeddings", GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=GEMINI_API_KEY))
 
             # Setup memory
             object.__setattr__(
                 self, "memory", ConversationBufferWindowMemory(k=10, return_messages=True)  # Keep last 10 interactions
             )
 
-            logger.info(f"Initialized {self.__class__.__name__} with model {self.llm.model_name}")
+            logger.info(f"Initialized {self.__class__.__name__}")
 
         except Exception as e:
             logger.error(f"Failed to initialize components: {e}")
@@ -119,7 +119,7 @@ Format your response as structured output with clear sections.
                 "recommendations": self._extract_recommendations(result),
                 "metadata": {
                     "timestamp": datetime.now().isoformat(),
-                    "model_used": self.model_name,
+                    "model_used": self.llm.model,
                     "input_tokens": len(task_description.split()),
                     "status": "completed",
                 },
